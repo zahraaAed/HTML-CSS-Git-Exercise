@@ -83,7 +83,7 @@ a:focus {
 .site-search .site-search__input {
   display: block;
   padding: 0.5em 1em 0.5em 2rem;
-  border: 4px solid #0870c8;
+  border: 4px solid #d63aeb;
   width: auto;
   max-width: none;
 }
@@ -95,7 +95,7 @@ main {
 .hero__image,
 .item__image {
   display: block;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 

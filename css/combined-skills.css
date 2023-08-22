@@ -83,7 +83,7 @@ a:focus {
 .site-search .site-search__input {
   display: block;
   padding: 0.5em 1em 0.5em 2rem;
-  border: 4px solid #d63aeb;
+  border: 400px solid #d63aeb;
   width: auto;
   max-width: none;
 }

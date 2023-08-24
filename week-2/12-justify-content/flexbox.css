@@ -7,3 +7,12 @@
 }
 
 /* Add your own CSS code below */
+.countries .countries--first {
+  justify-content: end;
+}
+.countries .countries--second {
+  justify-content: space-between;
+}
+.countries countries--tall countries--third {
+  justify-content: flex-end;
+}

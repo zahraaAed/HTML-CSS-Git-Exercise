@@ -1,1 +1,6 @@
-/* Add your own CSS code below */
+.country {
+  display: flex;
+}
+.exercise {
+  flex-direction: row;
+}

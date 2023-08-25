@@ -1,20 +1,22 @@
 /* Write your media queries and flexbox CSS below */
-.site-header__nav {
-  @media screen and (min-width=480px) {
+
+@media screen and (min-width=480px) {
+  .site-header__nav {
+    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
   }
 }
-.site-wrapper {
-  @media screen and (min-width=700px) {
+. @media screen and (min-width=700px) {
+  .site-wrapper {
     flex-direction: row;
-    display: inline-flexbox;
+    display: flex;
   }
 }
-.site-header__checkout {
-  @media screen and (min-width=992px) {
-    align-items: flex-start;
-    justify-content: right;
+
+@media screen and (min-width=992px) {
+  .site-header__checkout {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
   }
 }

@@ -2,8 +2,8 @@
 .site-header__nav {
   @media screen and (min-width=480px) {
     flex-direction: row;
-    display: inline-flexbox;
     justify-content: center;
+    align-items: baseline;
   }
 }
 .site-wrapper {

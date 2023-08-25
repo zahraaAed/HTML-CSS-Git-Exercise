@@ -14,3 +14,15 @@ _Hint: Every field needs a unique `name` attribute. You can't have two fields na
 When you are done, it should look like this.
 
 ![Screenshot of the billing and delivery address fieldsets](/images/26/solution.png)
+
+<fieldset>
+    <legend>billing address</legend>
+    <label for="address1">address line 1</label>
+    <input type="text" id="adress1" name="address1"><br><br>
+    <label for="address2">address line 2</label>
+    <input type="text" id="adress2" name="address2"><br><br>
+    <label for="address3">postcode</label>
+    <input type="text" id="adress3" name="address3"><br><br>
+    <label for="address4">city</label>
+    <input type="text" id="adress4" name="address4"><br><br>
+  </fieldset>

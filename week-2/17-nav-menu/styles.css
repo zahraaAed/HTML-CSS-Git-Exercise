@@ -1,1 +1,20 @@
 /* Write your media queries and flexbox CSS below */
+.site-header__nav {
+  @media screen and (min-width=480px) {
+    flex-direction: row;
+    display: inline-flexbox;
+    justify-content: center;
+  }
+}
+.site-wrapper {
+  @media screen and (min-width=700px) {
+    flex-direction: row;
+    display: inline-flexbox;
+  }
+}
+.site-header__checkout {
+  @media screen and (min-width=992px) {
+    align-items: flex-start;
+    justify-content: right;
+  }
+}
